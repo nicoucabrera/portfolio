@@ -15,7 +15,7 @@ const Experiencias = () => {
               }}
             >
               <img
-                src="../public/python.svg"
+                src="python.svg"
                 alt="Python Logo"
                 width="50px"
                 height="50px"
@@ -33,7 +33,7 @@ const Experiencias = () => {
               }}
             >
               <img
-                src="../public/Reflex.svg"
+                src="Reflex.svg"
                 alt="reflex Logo"
                 width="60px"
                 height="50px"
@@ -53,7 +53,7 @@ const Experiencias = () => {
               }}
             >
               <img
-                src="../public/tailwind.svg"
+                src="tailwind.svg"
                 alt="tailwind Logo"
                 width="50px"
                 height="50px"
@@ -71,7 +71,7 @@ const Experiencias = () => {
               }}
             >
               <img
-                src="/html.svg"
+                src="html.svg"
                 alt="HTML Logo"
                 width="50px"
                 height="50px"
@@ -89,7 +89,7 @@ const Experiencias = () => {
               }}
             >
               <img
-                src="/css.svg"
+                src="css.svg"
                 alt="CSS Logo"
                 width="50px"
                 height="50px"
@@ -109,7 +109,7 @@ const Experiencias = () => {
                 }}
               >
                 <img
-                  src="/js.svg"
+                  src="js.svg"
                   alt="JavaScript Logo"
                   width="50px"
                   height="50px"
@@ -127,7 +127,7 @@ const Experiencias = () => {
                 }}
               >
               <img
-                src="/react.svg"
+                src="react.svg"
                 alt="React Logo"
                 width="50px"
                 height="50px"
