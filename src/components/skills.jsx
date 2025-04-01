@@ -4,6 +4,9 @@ const Experiencias = () => {
   return (      
         <div className="text-center m-4 p-4 blur-none">
         <h2 className="text-slate-200 text-3xl font-bold">Skills:</h2>
+        <p className="text-slate-400 mt-4 mb-8 max-w-2xl mx-auto">
+            Conocimiento en tecnologías modernas para el desarrollo web y aplicaciones utilizando frameworks frontend para crear soluciones eficientes y escalables.
+          </p>
         <br />
         <div className="flex justify-center space-x-4 mt-4 group-hover:bg-slate-400">
           {/* Python Logo */}
