@@ -43,25 +43,25 @@ export default function Hero() {
         <div className={`flex gap-3 mt-8 ${isSticky ? "mt-0" : ""}`}>
           <a
             href="#proyectos"
-            className="flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white px-4 py-2 rounded-md transition-all hover:scale-105"
+            className="flex items-center gap-1 bg-sky-600 hover:bg-sky-700 text-white px-4 py-2 rounded-md transition-all hover:scale-105"
           >
-            <Code size={18} />
+            <Code size={14} />
             <span>Proyectos</span>
           </a>
           <a
             href="#cv"
-            className="flex items-center gap-2 bg-transparent border-2 border-sky-600 text-sky-400 hover:bg-sky-900/30 px-4 py-2 rounded-md transition-all hover:scale-105"
+            className="flex items-center gap-1 bg-transparent border-2 border-sky-600 text-sky-400 hover:bg-sky-900/30 px-4 py-2 rounded-md transition-all hover:scale-105"
           >
-            <FileText size={18} />
+            <FileText size={14} />
             <span>Curriculum</span>
           </a>
           <a
             href="https://github.com/nicoucabrera"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-transparent border-2 border-slate-600 text-slate-300 hover:bg-slate-800 px-4 py-2 rounded-md transition-all hover:scale-105"
+            className="flex items-center gap-1 bg-transparent border-2 border-slate-600 text-slate-300 hover:bg-slate-800 px-4 py-2 rounded-md transition-all hover:scale-105"
           >
-            <Github size={18} />
+            <Github size={14} />
             <span className={`${isSticky ? "hidden sm:inline" : ""}`}>GitHub</span>
           </a>
         </div>

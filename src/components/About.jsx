@@ -7,8 +7,7 @@ export default function About() {
           Actualmente trabajo como administrativo, estudio la carrera de Analista de Sistemas <br /><br />
           Mi interes esta especialmente en el <span className="text-slate-400 font-semibold">front-end</span>, donde disfruto creando experiencias visuales atractivas e intuitivas. <br /><br />
           Siempre estoy en busca de mejorar mis habilidades y aprender nuevas tecnologías. <br />
-          Enfocado en encontrar mi <span className="text-slate-400 font-semibold">primer trabajo en el mundo IT.</span> <br />
-          para seguir creciendo tanto en lo personal como profesionalmente <br />y aportar mis conocimientos al desarrollo de proyectos innovadores. 🚀
+          Enfocado en encontrar mi <span className="text-slate-400 font-semibold">primer trabajo en el mundo IT</span> para seguir creciendo tanto en lo personal como profesionalmente.
         </p>
       </section>
     );

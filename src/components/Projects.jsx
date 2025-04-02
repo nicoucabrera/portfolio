@@ -10,9 +10,7 @@ export default function Projects() {
       id: 0,
       title: "Mi Proyecto de Reflex",
       description:
-        "Portafolio web desarrollado con Reflex, combinando potencia y elegancia en una interfaz moderna.",
-      longDescription:
-        "Este proyecto utiliza Reflex para crear una experiencia web fluida y reactiva. Implementé animaciones personalizadas, y un diseño completamente responsive.",
+      "Portafolio web desarrollado con Reflex, combinando potencia y elegancia en una interfaz moderna.",
       link: "https://portfolio-cyan-panda.reflex.run",
       github: "https://github.com/username/proyecto-reflex",
       tags: ["Reflex", "Python", "Web"],
@@ -29,7 +27,7 @@ export default function Projects() {
   ]
 
   return (
-    <section id="proyectos" className="py-10 px-4 overflow-hidden relative">
+    <section id="proyectos" className="py-6 px-4 overflow-hidden relative rounded-xl">
       {/* Fondo con gradiente animado */}
       <div className="absolute inset-0 bg-slate-900 overflow-hidden">
         <div className="absolute -inset-[10%] opacity-20">
@@ -39,15 +37,15 @@ export default function Projects() {
 
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Encabezado */}
-        <div className="text-center mb-6">
-          <h1 className="text-slate-300 text-4xl md:text-5xl font-extrabold tracking-wide inline-block relative">
+        <div className="text-center mb-4">
+          <h1 className="text-slate-300 text-3xl md:text-5xl font-extrabold tracking-wide inline-block relative">
             <span className="relative z-10">Proyectos</span>
             <span className="absolute -bottom-1.5 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-purple-600"></span>
           </h1>
         </div>
 
         {/* Proyecto activo */}
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 items-center">
           {/* Visualización del proyecto (izquierda en desktop, arriba en móvil) */}
           <div className="lg:col-span-2 flex justify-center items-center">
             <div className="relative group">
@@ -57,7 +55,7 @@ export default function Projects() {
               ></div>
 
               {/* Contenido del botón o icono */}
-              <div className="relative z-10 p-5 flex justify-center items-center">
+              <div className="relative z-10 p-4 flex justify-center items-center">
                 {projects[activeProject].buttonContent ? (
                   <a
                     href="https://portfolio-cyan-panda.reflex.run"
