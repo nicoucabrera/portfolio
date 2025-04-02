@@ -2,7 +2,7 @@ import { FileDown, User, Award, Briefcase, GraduationCap } from "lucide-react"
 
 export default function DownloadCV() {
   return (
-    <div className="max-w-3xl mx-auto p-5 bg-slate-800 rounded-xl shadow-2xl my-10">
+    <div id="cv" className="max-w-3xl mx-auto p-5 bg-gradient-to-b from-black to-gray-900 rounded-xl shadow-2xl my-10">
       <div className="text-center mb-4">
         <h3 className="text-slate-300 mb-6">Descarga mi CV para conocer mi experiencia profesional completa</h3>
       </div>
@@ -61,7 +61,7 @@ export default function DownloadCV() {
         </div>
       </div>
 
-      <div className="flex justify-center mt-4">
+      <div className="flex justify-center mt-3">
         <a
           href="/portfolio/src/components/NicolásCabreraCV.pdf"
           download="NicolasCabreraCV.pdf"
@@ -72,7 +72,7 @@ export default function DownloadCV() {
         </a>
       </div>
 
-      <p className="text-center text-slate-400 mt-3 text-sm">Última actualización: Abril 2025</p>
+      <p className="text-center text-slate-400 mt-2 text-sm">Última actualización: Abril 2025</p>
       <br />
       <div></div>
       <br />

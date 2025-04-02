@@ -40,7 +40,7 @@ const Experiencias = () => {
                 alt="reflex Logo"
                 width="60px"
                 height="50px"
-                className="transition-transform duration-900 ease-in-out group-hover:drop-shadow-[0_0_5px_#6A3DAD] group-hover:brightness-150 group-hover:[transform:translateY(-20px)_translateZ(40px)_rotateX(-90deg)]"
+                className="transition-transform duration-900 ease-in-out group-hover:drop-shadow-[0_0_10px_#FFFFFF] group-hover:brightness-150 group-hover:[transform:translateY(-20px)_translateZ(40px)_rotateX(-90deg)]"
               />
             </div>
             <div className="absolute hidden group-hover:block bottom-0 left-1/2"></div>
