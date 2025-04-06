@@ -10,29 +10,29 @@ import Experiencias from './components/skills';
 
 const App = () => {
   return (
-<div class="relative">
-    <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black to-gray-900">
-      <Hero />    
+    <div class="relative">
+        <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black to-gray-900">
+          <Hero />    
+        </div>
+        <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black to-gray-900 text-white">
+          <About />   
+        </div>
+        <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black to-gray-900 text-white">
+          <Experiencias />   
+        </div>
+        <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black to-gray-900 text-black">
+          <Projects />    
+        </div>
+        <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black to-gray-900 text-black">
+          <Contact />    
+        </div>
+        <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black to-gray-900 text-black">
+          <DownloadCV />  
+        </div>
+        <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black to-gray-900 text-black">
+          <Footer />  
+        </div>
     </div>
-    <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black to-gray-900 text-white">
-      <About />   
-    </div>
-    <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black to-gray-900 text-white">
-      <Experiencias />   
-    </div>
-    <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black to-gray-900 text-black">
-      <Projects />    
-    </div>
-    <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black to-gray-900 text-black">
-      <Contact />    
-    </div>
-    <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black to-gray-900 text-black">
-      <DownloadCV />  
-    </div>
-    <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black to-gray-900 text-black">
-      <Footer />  
-    </div>
-</div>
   )
 }
 
